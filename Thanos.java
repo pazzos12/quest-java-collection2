@@ -24,7 +24,7 @@ public class Thanos {
         Comparator<Hero> comparator = new Comparator<Hero>() {
         	@Override
         	public int compare (Hero heroes1, Hero heroes2) {
-        		return heroes1.getAge() - heroes2.getAge();
+        		return heroes2.getAge() - heroes1.getAge();
         	}
         };
         
